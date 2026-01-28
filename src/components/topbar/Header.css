@@ -20,7 +20,7 @@
 }
 
 .film-logo {
-  width: clamp(70px, 10vw, 120px);
+  width: clamp(70px, 10vw, 140px);
 }
 
 .topbar-content {
@@ -34,19 +34,26 @@
 }
 
 .main-title {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: clamp(35px, 5vw, 55px);
-  font-weight: 600;
-  margin: 0;
+  font-size: 65px;
+  font-weight: 500;
   letter-spacing: 5px;
-  color: #f2f2f2;
-  text-shadow: 1px 1px 0 #888, 2px 2px 0 #777, 3px 3px 0 #666, 4px 4px 0 #555,
-    5px 5px 0 #444;
-  /* Prevent blur */
-  -webkit-font-smoothing: antialiased;
-  text-rendering: geometricPrecision;
+  color: #f9be08;
+  margin: 0;
+  text-shadow: 4px 0 6px rgba(243, 242, 242, 0.4);
 }
 
+.right-logos {
+  display: flex;
+    margin-left: auto;
+  gap: 50px;
+  padding: 0 20px;
+}
+.mit-logo,
+.naac-logo {
+  width: 220px;
+}
 /* Hamburger */
 .menu-btn {
   background: none;

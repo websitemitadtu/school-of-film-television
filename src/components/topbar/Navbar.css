@@ -30,14 +30,17 @@
   transform: translateX(0);
 }
 
+.black-text {
+  color: black;
+}
 /* Close button - right top corner */
 .close-btn {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 10px;
+  right: 2px;
   background: transparent;
   border: none;
-  font-size: 25px;
+  font-size: 30px;
   cursor: pointer;
   z-index: 10;
 }
@@ -54,7 +57,7 @@
 
 /* Logo size control */
 .nav-logos img {
-  height: 60px;
+  height: 80px;
   width: auto;
 }
 /* Menu */
@@ -108,8 +111,7 @@
   cursor: pointer;
 }
 
-
-.bnr-bottom{
+.bnr-bottom {
   text-align: center;
 }
 
@@ -117,6 +119,7 @@
   display: flex;
   justify-content: center;
   padding: 0;
+  gap: 10px;
 }
 
 .bnr-address {
@@ -125,6 +128,6 @@
   opacity: 0.7;
 }
 
-.bnr-address span{
+.bnr-address span {
   color: blue;
 }

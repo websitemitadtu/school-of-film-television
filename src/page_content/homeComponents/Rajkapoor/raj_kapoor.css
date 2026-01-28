@@ -15,8 +15,8 @@
 .image-wrapper {
   position: relative;
   display: inline-block;
-  padding: 3px; 
-  border-radius: 0 15em 15em 0; 
+  padding: 3px;
+  border-radius: 0 15em 15em 0;
 }
 
 /*remove animated layer */
@@ -27,14 +27,14 @@
 /* Image */
 .main-image {
   display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 0 15em 15em 0;
+  width: 125%;
+  height: 350px;
+  border-radius: 5%;
   position: relative;
 }
 
 /* Inner image overlay at top */
-.inner-image {
+/* .inner-image {
   position: absolute;
   bottom: -20px;
   left: 95%;
@@ -44,6 +44,32 @@
   border-radius: 5%;
   z-index: 2;
   box-shadow: 10px 8px 15px rgba(255, 255, 255, 0.35);
+} */
+/* Inner image overlay at top */
+.inner-image {
+  position: absolute;
+  bottom: -20px;
+  left: 115%;
+  width: 500px;
+  height: auto;
+  border-radius: 5%;
+  z-index: 2;
+  box-shadow: 10px 8px 15px rgba(255, 255, 255, 0.35);
+
+  /* animation */
+  animation: slideFromRight 3s ease-out forwards;
+}
+
+/* Right → Left animation */
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-80%);
+    opacity: 1;
+  }
 }
 
 /* Keyframes for border rotation */
@@ -60,11 +86,12 @@
 }
 
 /* Right - paragraph */
-.raj-text {
-  max-width: 900px;
+.raj-right {
+  max-width: 1000px;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 11%;
 }
+
 
 /* Keyframes for border animation */
 @property --a {

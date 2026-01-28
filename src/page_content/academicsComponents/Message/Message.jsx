@@ -36,13 +36,11 @@ const Message = () => {
               src="/assets/images/inner-banner/Dr.jabbar.webp"
               alt="Leader"
               className="leader-image"
-                 style={{maxHeight:"300px"}}
+              style={{ maxHeight: "300px" }}
             />
 
             <div className="leader-info">
-              <h4 className="leader-name">
-              Dr.Jabbar Patel
-              </h4>
+              <h4 className="leader-name">Dr.Jabbar Patel</h4>
               <span>(Mentor of SFT, MIT-ADT University)</span>
             </div>
           </div>
@@ -55,15 +53,16 @@ const Message = () => {
           With structured curriculum, intensive production practice, and
           engagement with professional filmmaking practices, the school equips
           students to meet the evolving demands of film, television, and digital
-          platforms. The School of Film & Television will continue to
-          develop skilled, responsible, and visionary media professionals who
-          uphold the values of excellence, integrity, and innovation
-          that define our university.
+          platforms. The School of Film & Television will continue to develop
+          skilled, responsible, and visionary media professionals who uphold the
+          values of excellence, integrity, and innovation that define our
+          university.
         </p>
       </div>
 
-<h2 className="innerpage-title">Message From Dean</h2>
-       <div>
+<hr/>
+      <h2 className="innerpage-title">Message From Dean</h2>
+      <div>
         <div className="leadership-content">
           {/* Left Content */}
           <div className="leadership-text">
@@ -85,6 +84,7 @@ const Message = () => {
               television, the school emphasizes innovation, imagination, and a
               global perspective across all aspects of learning.
             </p>
+          
           </div>
 
           {/* Right Content */}
@@ -93,34 +93,32 @@ const Message = () => {
               src="/assets/images/inner-banner/Dr-Mukesh-Sharma.webp"
               alt="Leader"
               className="leader-image"
-              style={{maxHeight:"250px"}}
+              // style={{ maxHeight: "250px" }}
             />
 
             <div className="leader-info">
               <h4 className="leader-name">
-                Hon’ble Prof. Dr. Mangesh T. Karad
+                Dr. Mukesh Sharma
               </h4>
-              <span>(Executive President)</span>
-              <p>
-                with Shri Javed Akhtar Sahab{" "}
-                <span>, poet, lyricist and screenwriter </span>
-              </p>
+              <span>( Dean of SFT, MIT - ADT University )</span>
+    
             </div>
           </div>
-        </div>
 
-        <p>
-          Its mission is realized through a dynamic academic ecosystem that
-          blends artistic expression, technical mastery, and industry exposure
-          empowering students to excel both behind and in front of the camera.
-          With structured curriculum, intensive production practice, and
-          engagement with professional filmmaking practices, the school equips
-          students to meet the evolving demands of film, television, and digital
-          platforms. The School of Film & Television will continue to
-          develop skilled, responsible, and visionary media professionals who
-          uphold the values of excellence, integrity, and innovation
-          that & define our university.
-        </p>
+          
+        </div>
+          <p>
+              Its mission is realized through a dynamic academic ecosystem that
+              blends artistic expression, technical mastery, and industry
+              exposure empowering students to excel both behind and in front of
+              the camera. With structured curriculum, intensive production
+              practice, and engagement with professional filmmaking practices,
+              the school equips students to meet the evolving demands of film,
+              television, and digital platforms. The School of Film & Television
+              will continue to develop skilled, responsible, and visionary media
+              professionals who uphold the values of excellence, integrity, and
+              innovation that & define our university.
+            </p>
       </div>
     </div>
   );

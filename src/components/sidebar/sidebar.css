@@ -7,7 +7,7 @@
 /* Sidebar list item spacing + responsive font */
 .sidebar li {
   margin-bottom: clamp(8px, 1vw, 14px);
-  font-size: clamp(12px, 1.2vw, 16px);
+  font-size: 18px;
   font-weight: 500;
   text-align: start;
 }
@@ -16,7 +16,7 @@
 .sidebar li a,
 .sidebar li .sidebar-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: #C4C4C4;
   display: block;
   padding: clamp(6px, 0.8vw, 10px) 0 clamp(6px, 0.8vw, 10px)
     clamp(20px, 3vw, 40px);
@@ -27,7 +27,7 @@
 /* Active + hover */
 .sidebar li.active a,
 .sidebar li a:hover {
-  color: goldenrod;
+ color: goldenrod;
 }
 
 /* Hover + active state for scroll items */

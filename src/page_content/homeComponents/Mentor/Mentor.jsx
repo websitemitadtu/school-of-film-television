@@ -22,7 +22,10 @@ const Mentor = () => {
           <DividerWithTitle title="Our Mentor" />
 
           <div className="img-wrap">
-            <img src="/assets/images/home/mentor/jabbar_patel.webp" alt="Mentor" />
+            <img
+              src="/assets/images/home/mentor/jabbar_patel.webp"
+              alt="Mentor"
+            />
           </div>
 
           {/* Mentor Info */}
@@ -33,7 +36,7 @@ const Mentor = () => {
               className="mentor-icon"
             />
             <div>
-              <h3 className="mentor-name">Mr. Jabbar Patel</h3>
+              <h3 id="mentor-name" className="subtitle">Dr. Jabbar Patel</h3>
               <p className="mentor-message">
                 “Cinema is not just about visuals, it’s about emotions,
                 discipline, and honesty. Always tell stories that matter.”

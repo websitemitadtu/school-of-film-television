@@ -4,7 +4,7 @@ import "./leadership.css";
 const Leadership = () => {
   return (
     <div>
-      <h2 className="innerpage-title" >Message from Executive President</h2>
+      <h2 className="innerpage-title">Message from Executive President</h2>
 
       <div className="leadership-content">
         {/* Left Content */}
@@ -20,12 +20,25 @@ const Leadership = () => {
           </p>
 
           <p>
-            The MIT School of Film &amp; Television reflects this commitment
-          through its focused approach to screen based storytelling and visual
-          media education. Guided by its vision to nurture creative storytellers
-          and performers who shape the future of film and television, the school
-          emphasizes innovation, imagination, and a global perspective across
-          all aspects of learning.
+            The MIT School of Film Television reflects this commitment through
+            its focused approach to screen based storytelling and visual media
+            education. Guided by its vision to nurture creative storytellers and
+            performers who shape the future of film and television, the school
+            emphasizes innovation, imagination, and a global perspective across
+            all aspects of learning.
+          </p>
+
+          <p>
+            Its mission is realized through a dynamic academic ecosystem that
+            blends artistic expression, technical mastery, and industry exposure
+            empowering students to excel both behind and in front of the camera.
+            With structured curriculum, intensive production practice, and
+            engagement with professional filmmaking practices, the school equips
+            students to meet the evolving demands of film, television, and
+            digital platforms. The School of Film & Television will continue to
+            develop skilled, responsible, and visionary media professionals who
+            uphold the values of excellence, integrity, and innovation that &
+            define our university.
           </p>
         </div>
 
@@ -40,26 +53,13 @@ const Leadership = () => {
           <div className="leader-info">
             <h4 className="leader-name">Hon’ble Prof. Dr. Mangesh T. Karad</h4>
             <span>(Executive President)</span>
-            <p>with Shri Javed Akhtar Sahab  <span>, poet, lyricist and screenwriter </span></p>
-           
+            <p>
+              with Shri Javed Akhtar Sahab{" "}
+              <span>, poet, lyricist and screenwriter </span>
+            </p>
           </div>
         </div>
       </div>
-
-    
-        <p>
-        Its mission is realized through a dynamic academic ecosystem that
-          blends artistic expression, technical mastery, and industry exposure
-          empowering students to excel both behind and in front of the camera.
-          With structured curriculum, intensive production practice, and
-          engagement with professional filmmaking practices, the school equips
-          students to meet the evolving demands of film, television, and digital
-          platforms. The School of Film &amp; Television will continue to
-          develop skilled, responsible, and visionary media professionals who
-          uphold the values of excellence, integrity, and innovation
-          that&nbsp;&nbsp;define our university.
-        </p>
-      
     </div>
   );
 };

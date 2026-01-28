@@ -32,8 +32,8 @@ const Programs = () => {
               <img src={program.img} alt={program.subtitle} />
               <button className="button" id="pg-btn">Read More</button>
             </div>
-            <h3 className="card-subtitle">{program.subtitle}</h3>
-            <p>{program.text}</p>
+            <h3 className="subtitle">{program.subtitle}</h3>
+            <p className="pg-text">{program.text}</p>
           </div>
         ))}
       </div>

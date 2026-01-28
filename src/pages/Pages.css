@@ -7,6 +7,7 @@ html {
 
 .page-layout {
   display: flex;
+  align-items: stretch;
   justify-content: center;
   align-items: flex-start;
   overflow: visible;
@@ -15,11 +16,12 @@ html {
 /* Sidebar */
 .page-layout .sidebar {
   position: sticky;
-  box-shadow: 6px 0 6px -2px rgba(255, 255, 255, 0.35);
+  box-shadow: 8px 0 12px -6px rgba(255, 255, 255, 0.35);
   top: clamp(5px, 1.5vw, 20px);
   padding: clamp(10px, 2.5vw, 30px) 5px clamp(40px, 5vw, 80px)
     clamp(5px, 2vw, 30px);
   width: clamp(120px, 18vw, 300px);
+  height: auto;
   flex-shrink: 0;
 }
 
@@ -35,42 +37,54 @@ html {
 }
 
 /*  subtitle */
-.subtitle {
-  font-size: 25px;
+.subtitle,
+.innerpage-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  font-size: 35px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   color: lightgrey;
-  font-style: italic;
-  margin-top: 0;
+  margin: 20px 0;
 }
 
 .innerpage-title {
-  font-size: 30px;
   color: #f9be08;
+  text-align: left;
 }
 
 .innerpage-subtitle {
-  color: goldenrod;
-  font-size: 20px;
-  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  color: #f9be08;
+  font-size: 18px;
+  font-weight: 300;
   margin: 0;
 }
 
 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: whitesmoke;
 }
 
 .page-list {
   color: wheat;
-  font-size: 16px;
-  line-height: 24px;
   padding-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .page-list li {
-  color: white;
-  margin-bottom: 5px;
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 /* Button */
@@ -78,7 +92,7 @@ p {
   padding: 0.5rem 1rem;
   border: none;
   color: #fff;
-  font-weight: bold;
+  font-size: 17px;
   cursor: pointer;
   border-radius: 0.4rem;
   background: linear-gradient(100deg, #8e2de2, #eb0a3e);
@@ -90,21 +104,39 @@ p {
 }
 
 .btn-heading {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
 /* common-card */
-.common-card {
+/* .common-card {
   background: whitesmoke;
   color: #464545;
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-radius: 0 22px 0 22px;
   border-right: 3px solid #eb0a3e;
   border-bottom: 3px solid #8e2de2;
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08), inset 0 0 0 rgba(0, 0, 0, 0);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:
+    0 12px 25px rgba(0, 0, 0, 0.08),
+    inset 0 0 0 rgba(0, 0, 0, 0);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+} */
+
+.common-card {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.35);
+  background-color: rgba(47, 49, 54, 0.9);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Hover effect */
@@ -117,15 +149,17 @@ p {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 12px;
-  color: #8e2de2;
+  /* color: #8e2de2; */
+  color: wheat;
 }
 
 .common-card-desc {
-  color: black;
+  /* color: black; */
+  color: whitesmoke;
 }
 
 .icons-subtitle {
   color: wheat;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
 }

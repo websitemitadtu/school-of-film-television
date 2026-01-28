@@ -15,6 +15,18 @@ const Achievements = () => {
   return (
     <div className="achievements">
       <h2 className="innerpage-title">Achievements</h2>
+        {/* First set of images */}
+        <div className="ach-images-grid">
+          {images.map((img, index) => (
+            <img
+              key={`img1-${index}`}
+              src={img}
+              alt={`Gallery ${index + 1}`}
+              className="ach-image"
+              loading="lazy"
+            />
+          ))}
+        </div>
       <div className="ach-content">
         <p>
           MIT School of Film and Television is steadily establishing its
@@ -35,18 +47,7 @@ const Achievements = () => {
         </p>
       </div>
       <section className="ach-images">
-        {/* First set of images */}
-        <div className="ach-images-grid">
-          {images.map((img, index) => (
-            <img
-              key={`img1-${index}`}
-              src={img}
-              alt={`Gallery ${index + 1}`}
-              className="ach-image"
-              loading="lazy"
-            />
-          ))}
-        </div>
+      
 
         {/* Second set of images */}
         <div className="ach-images-grid">
@@ -55,7 +56,7 @@ const Achievements = () => {
               key={`img2-${index}`}
               src={img}
               alt={`Gallery ${images.length + index + 1}`}
-              className="ach-image"
+              className="ach-image posters"
               loading="lazy"
             />
           ))}

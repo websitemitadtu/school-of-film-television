@@ -117,7 +117,7 @@ const Admission = () => {
 
           {/* Section 1 */}
           <section className="admission-section">
-            <h3 style={{ textAlign: "center" }}>Admission Details</h3>
+            <h3 style={{ textAlign: "center" }} className="subtitle">Admission Details</h3>
 
             <table className="admission-table">
               <thead>
@@ -150,7 +150,7 @@ const Admission = () => {
           {/* Section 2 */}
           <section className="admission-section">
             <div className="info-box">
-              <p>
+              <p style={{textAlign:"center"}}>
                 Aspirants seeking admission must visit www.mituniversity.ac.in
                 and register by clicking on the Apply Now link.
               </p>
@@ -188,7 +188,7 @@ const Admission = () => {
                       <h5 className="stage-title">{stage.title}</h5>
                       <p className="stage-text">{stage.content}</p>
                       {stage.list && (
-                        <ul>
+                        <ul className="page-list">
                           {stage.list.map((item, i) => (
                             <li key={i}>{item}</li>
                           ))}

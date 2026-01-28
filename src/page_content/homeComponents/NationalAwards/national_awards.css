@@ -14,13 +14,15 @@
   --c2: rgba(168, 239, 255, 0.1);
 }
 
-/* Section */
 .national-awards {
-  padding:  20px;
+  padding: 50px 0;
+  background-image: url("/public/assets/images/background/frame.webp");
+  background-size: 80%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
-/* Animated gradient border */
-.gradient-border {
+/* .gradient-border {
   border: 4px solid;
   border-image: conic-gradient(
       from var(--angle),
@@ -31,25 +33,25 @@
     )
     30;
   animation: borderRotate var(--d) linear infinite;
-}
+} */
 
 /* Card */
 .awards-card {
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(47, 49, 54, 0.9);
+  /* background: rgba(47, 49, 54, 0.9);
+   */
 }
 
 /* Layout */
 .awards-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
   align-items: center;
 }
 
-.awards-left{
-  padding: 0 30px;
+.awards-left {
+  padding-left: 30px;
 }
 
 /* List */
@@ -70,9 +72,14 @@
   color: var(--c1);
 }
 
+.watch-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Button */
 .watch-button {
-  margin-top: 20px;
+  margin: auto;
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;

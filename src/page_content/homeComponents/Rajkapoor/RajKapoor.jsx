@@ -24,9 +24,8 @@ const RajKapoor = () => {
           </div>
 
           {/* Right side - paragraph */}
-          <div>
+          <div className="raj-right">
             <DividerWithTitle title="A Timeless Residence of Cinematic Heritage" />
-
             <h4 className="subtitle">From the land of Raj Kapoor</h4>
             <div className="raj-text">
               <p>

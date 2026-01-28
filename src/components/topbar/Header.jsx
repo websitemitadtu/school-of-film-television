@@ -18,8 +18,21 @@ const Header = ({ onMenuOpen }) => {
 
           <div className="topbar-content">
             {/* <span className="subtitle">MIT - ADT University , Pune</span> */}
-            <h1 className="main-title">School Of Film & Television</h1>
+            <h1 className="main-title">School Of <br/> Film and Television</h1>
           </div>
+        </div>
+
+        <div className="right-logos">
+              <img
+            src="/assets/icons/mit_logo.webp"
+            alt="College Logo"
+            className="mit-logo"
+          />
+             <img
+            src="/assets/icons/naac.png"
+            alt="College Logo"
+            className="naac-logo"
+          />
         </div>
 
         {/* Hamburger */}

@@ -80,7 +80,7 @@ const Navbar = ({ open, onClose }) => {
 
 <div className="bnr-bottom">
         {/* Footer */}
-        <p>Follow us on</p>
+        <p className="black-text">Follow us on</p>
 
         <div className="footer-social-icons" id="nav-social">
           {socialIconsData.map(({ url, network, bgColor }, index) => (
@@ -96,8 +96,8 @@ const Navbar = ({ open, onClose }) => {
 
         <h5>Welcome to MIT-ADT University</h5>
         <address className="bnr-address">
-          <p>Rajbaug Campus, Loni Kalbhor, Pune - 412201</p>
-          <p>Maharashtra, India</p>
+          <p className="black-text">Rajbaug Campus, Loni Kalbhor, Pune - 412201</p>
+          <p className="black-text">Maharashtra, India</p>
           <span>09595124234</span>
           <br />
           <span>info@mituniversity.edu.in</span>

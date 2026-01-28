@@ -4,7 +4,7 @@ import InnerBanner from "../../components/inner_banner/InnerBanner";
 import DividerWithTitle from "../../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 
 const AwardStories = () => {
-  const bgImage = "/assets/images/home/national_award.webp";
+  const bgImage = "/assets/images/inner-banner/national_award.JPG";
   const title = "Award-Winning Stories";
   const subtitle = "Start Your Journey With Us";
 

@@ -18,14 +18,17 @@
 }
 
 .leader-image {
-  max-width: 500px;
+  width: 60%;
+  height: auto;
   border-radius: 12px;
   margin-bottom: 12px;
 }
 
 .leader-name {
-  margin: 0;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px;
+  color: goldenrod;
 }
 
 .leader-info span {

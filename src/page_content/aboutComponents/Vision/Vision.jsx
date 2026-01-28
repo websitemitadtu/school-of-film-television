@@ -34,7 +34,7 @@ const Vision = () => {
             <div className="vision-card" key={index}>
               <div className="vision-icon">{item.icon}</div>
               <h5 className="vision-title">{item.title}</h5>
-              <p className="vision-text">{item.description}</p>
+              <p>{item.description}</p>
             </div>
           ))}
         </div>

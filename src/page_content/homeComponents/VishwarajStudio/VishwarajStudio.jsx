@@ -13,13 +13,6 @@ const images = [
 const VishwarajStudio = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setActiveIndex((prev) => (prev + 1) % images.length);
-  //   }, 3500);
-
-  //   return () => clearInterval(interval);
-  // }, []);
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % images.length);
@@ -29,24 +22,15 @@ const VishwarajStudio = () => {
   }, [images.length]);
 
   return (
-    <section className="vishwaraj-wrapper">
+    <div>
       <DividerWithTitle title="Where Student Sets Become Real Stories" />
       <h3 className="subtitle">Vishwaraj Studio</h3>
+      <section className="vishwaraj-wrapper">
+        {/* Content */}
+        <div className="studio-content">
+          {/* left sliding images */}
 
-      {/* Content */}
-      <div className="studio-content">
-        {/* left sliding images */}
-        {/* <div className="studio-imgs">
-          {images.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt="National Award"
-              className={`slide ${index === activeIndex ? "active" : ""}`}
-            />
-          ))}
-        </div> */}
-        <div className="studio-imgs">
+          {/* <div className="studio-imgs">
           {images.map((img, index) => {
             const isActive = index === activeIndex;
             const isPrev =
@@ -63,22 +47,36 @@ const VishwarajStudio = () => {
               />
             );
           })}
-        </div>
+        </div> */}
 
-        {/* Right Content */}
-        <div className="studio-text">
-          <p>
-            Vishwaraj Studio is a creative production house dedicated to
-            storytelling through film, music, and visual arts. We mentor
-            aspiring filmmakers and bring unique visions to life.
-          </p>
+          {/* Right Content */}
 
-          <button className="button" id="studio-btn">
-            Know More
-          </button>
+          <div className="studio-section">
+            <div className="studio-text">
+              {" "}
+              <p>
+                One of Pune's Largest Professional Shooting Studios - A fully
+                air-conditioned shooting floor enables large scale set
+                construction, controlled lighting, and immersive production
+                training.
+              </p>
+              <p>
+                The campus houses state of the art production and post
+                production facilities, including high end digital cameras,
+                professional editing suites, and one of the largest air
+                conditioned shooting floors in Pune (110 x 90 x 80 sq. ft.),
+                providing students with immersive, hands on experience using
+                industry-grade equipment.
+              </p>
+            </div>
+
+            <button className="button" id="studio-btn">
+           More Facilites
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

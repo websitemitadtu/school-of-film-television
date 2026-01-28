@@ -5,27 +5,32 @@
 }
 
 .contact-cards {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+   background-color: rgba(47, 49, 54, 0.9);
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.35);
+  /* gap: 20px; */
 }
 
 .contact-card {
+  /* background-color: whitesmoke; */
   display: flex;
-  color: white;
   align-items: flex-start;
   gap: 15px;
-  padding: 20px 20px 0 20px;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
+  padding: 30px 0px 20px 20px;
+  /* border: 1px solid #e5e5e5; */
+  /* border-radius: 8px; */
 }
 
 .contact-card .icon img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .contact-card .content span {
-  color: wheat;
+  /* color: rgb(104, 103, 103); */
+  color: silver;
   padding-right: 10px;
+  font-weight: 500;
 }

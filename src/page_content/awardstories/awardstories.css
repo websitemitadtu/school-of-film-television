@@ -22,15 +22,15 @@
 
 .awards-row.five {
   grid-template-columns: repeat(5, 1fr);
-  max-width: 75%;
-    gap: 30px;
+  max-width: 85%;
+  gap: 40px;
   margin: 0 auto;
   padding: 50px 30px;
 }
 
 /* Card */
 .award-card {
-  height: 160px;
+  height: 180px;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -51,21 +51,19 @@
 
 .film-name {
   margin: 0;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .award-name {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #696984;
 }
 
 .student-name {
   margin: 0;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 400;
 }
-
-

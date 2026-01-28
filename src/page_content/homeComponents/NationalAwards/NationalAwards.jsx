@@ -20,41 +20,46 @@ const NationalAwards = () => {
   }, []);
 
   return (
-    <section className="national-awards">
+    <div>
       <DividerWithTitle title="National Awards" />
+      <section className="national-awards">
+        <div className="awards-card gradient-border">
+          <div className="awards-content">
+            {/* Left list */}
+            <div className="awards-left">
+              <ul className="awards-list">
+                {/* <h4 className="subtitle">National Awards</h4> */}
+                <li>Film: Pariah (Marathi and Hindi)</li>
+                <li>Section: Non-Feature Film</li>
+                <li>
+                  Awars Winner: Producer (MIT School Of Film & Television, Pune)
+                </li>
+                <li>Awards: Best Debut Non-Feature Film Of Director</li>
+              </ul>
 
-      <div className="awards-card gradient-border">
-        <div className="awards-content">
-          {/* Left list */}
-          <div className="awards-left">
-            <ul className="awards-list">
-              <li>Film: Pariah (Marathi and Hindi)</li>
-              <li>Section: Non-Feature Film</li>
-              <li>
-                Awars Winner: Producer (MIT School Of Film & Television, Pune)
-              </li>
-              <li>Awards: Best Debut Non-Feature Film Of Director</li>
-            </ul>
-            <button className="watch-button">
-              Watch Movie Now
-              <CgPlayButton  className="icon" />
-            </button>
-          </div>
+              <div className="watch-btn-wrapper">
+              <button className="watch-button">
+                Watch Movie Now
+                <CgPlayButton className="icon" />
+              </button>
+              </div>
+            </div>
 
-          {/* Right sliding images */}
-          <div className="image-slider">
-            {images.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt="National Award"
-                className={`slide ${index === activeIndex ? "active" : ""}`}
-              />
-            ))}
+            {/* Right sliding images */}
+            <div className="image-slider">
+              {images.map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt="National Award"
+                  className={`slide ${index === activeIndex ? "active" : ""}`}
+                />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

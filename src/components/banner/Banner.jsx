@@ -35,7 +35,7 @@ const Banner = () => {
               />
             </video> */}
             <img
-              src="/assets/images/banner/banner.webp"
+              src="/assets/images/banner/bannerhome1.png"
               alt="Short Film Banner"
               className="bnr-image"
             />
@@ -43,10 +43,14 @@ const Banner = () => {
             {/* Overlay Items */}
             <div className="bnr-overlay">
               <div className="bnr-left">
-                <h2 className="bnr-left-title">
+                {/* <h2 className="bnr-left-title">
                   Dream <GoDotFill className="dot-icon" /> Direct
                   <GoDotFill className="dot-icon" /> Deliver
-                </h2>
+                </h2> */}
+                   <h3 className="banner-title">Our Alumini</h3>
+                <h3 className="banner-title">Mr.Ankit Bhat (Associate DoP)</h3>
+                <p className="banner-text">On the Set Of Feature Film</p>
+                <button className="button">More Alumini Work</button>
 
                 {/* SOUND BUTTON */}
                 <button onClick={toggleMute} className="volume-btn">
@@ -58,12 +62,12 @@ const Banner = () => {
                 </button>
               </div>
 
-              <div className="banner-right">
+              {/* <div className="banner-right">
                 <h3 className="banner-title">Our Alumini</h3>
                 <h3 className="banner-title">Mr.Ankit Bhat (Associate DoP)</h3>
                 <p className="banner-text">On the Set Of Feature Film</p>
                 <button className="banner-btn">More Alumini Work</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

@@ -62,13 +62,7 @@ const History = () => {
             collaboration with filmmaking students, actors develop authentic
             screen performances grounded in cinematic understanding.
           </p>
-        </div>
-
-        <div className="history-image">
-          <img src="/assets/images/bts/students.webp" alt="Growth" />
-        </div>
-      </div>
-
+          
         <p>
           The B.Sc. and M.Sc. programs in Filmmaking are meticulously aligned
           with Indian and international industry standards and are recognized by
@@ -80,6 +74,13 @@ const History = () => {
           shooting floors in Pune (110 × 90 × 80 sq. ft.), providing students
           with immersive, hands-on experience using industry-grade equipment.
         </p>
+        </div>
+
+        <div className="history-image">
+          <img src="/assets/images/bts/students.webp" alt="Growth" />
+        </div>
+      </div>
+
 
     </div>
   );
