@@ -1,9 +1,4 @@
 
-
-.ach-content span {
-  color: wheat;
-}
-
 .ach-images-grid {
   display: flex;
   gap: 40px;
@@ -13,7 +8,6 @@
 
 .ach-image {
   max-width: 450px;
-  /* height: 280px; */
   object-fit: cover;
   border-radius: 8px;
   margin: 20px 0;

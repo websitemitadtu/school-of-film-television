@@ -5,6 +5,7 @@ import NationalAwards from "../page_content/homeComponents/NationalAwards/Nation
 import Programs from "../page_content/homeComponents/Programs/Programs";
 import ProgramHighlights from "../page_content/landingComponents/programHighlights/ProgramHighlights";
 import AdmissionDetails from "../page_content/landingComponents/admissiondetails/AdmissionDetails";
+import DividerWithTitle from "../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 import Specialization from "../page_content/course/specialization/Specialization";
 
 const LandingPage = () => {
@@ -12,7 +13,8 @@ const LandingPage = () => {
     <>
       <LandingTop />
       <NationalAwards />
-      <Specialization/>
+      <DividerWithTitle title="Specializations Offered" />
+      <Specialization />
       <Career />
       <Programs />
       <ProgramHighlights />

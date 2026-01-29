@@ -74,20 +74,20 @@ const Events = () => {
       <div className="events-container">
         <div className="events-grid">
           {eventsData.map((event) => (
-            <div className="event-card" key={event.id}>
+            <div className="common-card event-card" key={event.id}>
               {/* Left Image Section */}
               <div
                 className="event-left"
                 style={{ backgroundImage: `url(${event.image})` }}
               >
                 <div className="event-head">
-                  <h3 className="event-title">{event.title}</h3>
+                  <h3 className="common-title">{event.title}</h3>
                 </div>
               </div>
 
               {/* Right Content Section */}
               <div className="event-right">
-                <ul className="page-list ">
+                <ul className="page-list">
                   {event.points.map((point, index) => (
                     <li key={index}>{point}</li>
                   ))}

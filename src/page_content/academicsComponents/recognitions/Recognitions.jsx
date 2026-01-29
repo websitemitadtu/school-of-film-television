@@ -42,7 +42,7 @@ const Recognitions = () => {
       <div className="recognitions-container">
         <div className="recognitions-grid">
           {recognitionsData.map((rec) => (
-            <div className="recognition-card" key={rec.id}>
+            <div className="common-card rg-card" key={rec.id}>
               {/* Top Image */}
               <div
                 className="rec-image"

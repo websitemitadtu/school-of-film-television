@@ -33,7 +33,7 @@ const Programs = () => {
               <button className="button" id="pg-btn">Read More</button>
             </div>
             <h3 className="subtitle">{program.subtitle}</h3>
-            <p className="pg-text">{program.text}</p>
+            <p>{program.text}</p>
           </div>
         ))}
       </div>

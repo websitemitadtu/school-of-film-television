@@ -6,11 +6,11 @@ const ProgramHighlights = () => {
   return (
     <section className="program-highlights">
       <div className="hg-content-wrapper">
-        <h2 className="hg-title">Program Highlights</h2>
+        <h2 className="subtitle hg-title">Program Highlights</h2>
 
         {/* Single vertical list */}
         <ul className="vertical-list">
-        <li className="list-title">B.Sc. in Filmmaking</li>
+        <li className="innerpage-subtitle list-title">B.Sc. in Filmmaking</li>
           <li>Learn filmmaking by making films, not just studying theory</li>
           <li>Production-focused curriculum aligned with industry standards</li>
           <li>Access to professional studios and high-end equipment</li>
@@ -22,7 +22,7 @@ const ProgramHighlights = () => {
         {/* Two lists side by side */}
         <div className="horizontal-lists">
           <ul className="hg-list">
-       <li className="list-title">M.Sc. in Filmmaking</li>
+       <li className="innerpage-subtitle list-title">M.Sc. in Filmmaking</li>
             <li>
               Advanced specialization aligned with international filmmaking
               practices
@@ -38,7 +38,7 @@ const ProgramHighlights = () => {
           </ul>
 
           <ul className="hg-list">
-               <li className="list-title">    B.A. in Screen Acting</li>
+               <li className="innerpage-subtitle list-title">    B.A. in Screen Acting</li>
         
             <li>
               Unique first-year foundation in filmmaking alongside B.Sc. in

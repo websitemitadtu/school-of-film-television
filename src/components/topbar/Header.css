@@ -9,20 +9,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: clamp(10px, 3vw, 20px) clamp(10px, 4vw, 50px);
+  gap: clamp(5px, 2vw, 30px);
 }
 
 /* Brand */
 .topbar-left {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: clamp(5px, 2vw, 30px);
 }
 
 .film-logo {
-  width: clamp(70px, 10vw, 140px);
+  width: clamp(50px, 12vw, 140px);
 }
 
+/* Text block */
 .topbar-content {
   display: flex;
   flex-direction: column;
@@ -30,36 +32,56 @@
 }
 
 .subtitle {
-  font-size: clamp(20px, 2vw, 35px);
+  font-size: clamp(16px, 2.5vw, 35px);
+  line-height: 1.2;
 }
 
 .main-title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(35px, 5vw, 55px);
-  font-size: 65px;
+  font-size: clamp(22px, 4vw, 65px);
   font-weight: 500;
-  letter-spacing: 5px;
+  letter-spacing: clamp(2px, 0.6vw, 5px);
   color: #f9be08;
   margin: 0;
   text-shadow: 4px 0 6px rgba(243, 242, 242, 0.4);
 }
 
+/* Right logos */
 .right-logos {
   display: flex;
-    margin-left: auto;
-  gap: 50px;
-  padding: 0 20px;
+  margin-left: auto;
+  gap: clamp(5px, 4vw, 50px);
+  padding: 0 clamp(5px, 1.5vw, 20px);
 }
+
 .mit-logo,
 .naac-logo {
-  width: 220px;
+  width: clamp(50px, 10vw, 220px);
 }
+
 /* Hamburger */
 .menu-btn {
   background: none;
   border: none;
   color: #fff;
-  font-size: 30px;
+  font-size: clamp(15px, 2vw, 30px);
   cursor: pointer;
   align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .right-logos {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .topbar-content {
+    align-items: flex-start;
+  }
 }

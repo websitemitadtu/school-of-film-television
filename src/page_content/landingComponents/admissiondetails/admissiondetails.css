@@ -6,8 +6,8 @@
 .admission-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 50px;
+  margin: 30px 0;
 }
 
 /* ACTIVE button → only border */
@@ -38,31 +38,11 @@
   text-align: center;
 }
 
-.admission-card h4 {
-  font-size: 24px;
-  margin-bottom: 8px;
-  color: gold;
-}
-
-.admission-card .subtitle {
-  font-size: 18px;
-  color: white;
-  margin-top: 15px;
-  font-style: normal;
-}
-
-.admission-card .description,
-.desc-list {
-  font-size: 14px;
-  line-height: 1.6;
-  text-align: start;
-}
-
 /* Paragraph below second section */
 .info-text {
+  font-size: 16px;
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
   color: wheat;
-  font-style: italic;
 }

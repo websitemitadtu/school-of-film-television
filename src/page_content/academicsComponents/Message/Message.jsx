@@ -40,8 +40,10 @@ const Message = () => {
             />
 
             <div className="leader-info">
-              <h4 className="leader-name">Dr.Jabbar Patel</h4>
-              <span>(Mentor of SFT, MIT-ADT University)</span>
+              <h4 className="ld-name">Dr.Jabbar Patel</h4>
+              <p>
+                <span>(Mentor of SFT, MIT-ADT University)</span>
+              </p>
             </div>
           </div>
         </div>
@@ -60,7 +62,7 @@ const Message = () => {
         </p>
       </div>
 
-<hr/>
+      <hr />
       <h2 className="innerpage-title">Message From Dean</h2>
       <div>
         <div className="leadership-content">
@@ -84,7 +86,6 @@ const Message = () => {
               television, the school emphasizes innovation, imagination, and a
               global perspective across all aspects of learning.
             </p>
-          
           </div>
 
           {/* Right Content */}
@@ -97,28 +98,25 @@ const Message = () => {
             />
 
             <div className="leader-info">
-              <h4 className="leader-name">
-                Dr. Mukesh Sharma
-              </h4>
-              <span>( Dean of SFT, MIT - ADT University )</span>
-    
+              <h4 className="ld-name">Dr. Mukesh Sharma</h4>
+              <p>
+                <span>( Dean of SFT, MIT - ADT University )</span>
+              </p>
             </div>
           </div>
-
-          
         </div>
-          <p>
-              Its mission is realized through a dynamic academic ecosystem that
-              blends artistic expression, technical mastery, and industry
-              exposure empowering students to excel both behind and in front of
-              the camera. With structured curriculum, intensive production
-              practice, and engagement with professional filmmaking practices,
-              the school equips students to meet the evolving demands of film,
-              television, and digital platforms. The School of Film & Television
-              will continue to develop skilled, responsible, and visionary media
-              professionals who uphold the values of excellence, integrity, and
-              innovation that & define our university.
-            </p>
+        <p>
+          Its mission is realized through a dynamic academic ecosystem that
+          blends artistic expression, technical mastery, and industry exposure
+          empowering students to excel both behind and in front of the camera.
+          With structured curriculum, intensive production practice, and
+          engagement with professional filmmaking practices, the school equips
+          students to meet the evolving demands of film, television, and digital
+          platforms. The School of Film & Television will continue to develop
+          skilled, responsible, and visionary media professionals who uphold the
+          values of excellence, integrity, and innovation that & define our
+          university.
+        </p>
       </div>
     </div>
   );

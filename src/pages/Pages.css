@@ -57,8 +57,13 @@ html {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1px;
   color: #f9be08;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.innerpage-hg {
+  color: wheat;
   margin: 0;
 }
 
@@ -71,7 +76,28 @@ p {
   color: whitesmoke;
 }
 
+.ld-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+  color: whitesmoke;
+}
+
+
+.common-title {
+  line-height: 25px;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: wheat;
+}
+
+span {
+  color: wheat;
+}
 .page-list {
+  font-family: "Poppins-Medium", Helvetica;
   color: wheat;
   padding-left: 30px;
   font-size: 18px;
@@ -128,7 +154,7 @@ p {
 .common-card {
   text-align: center;
   padding: 20px;
-  max-width: 400px;
+  border-radius: 12px;
   box-shadow: 0 6px 10px rgba(255, 255, 255, 0.35);
   background-color: rgba(47, 49, 54, 0.9);
   overflow: hidden;
@@ -139,27 +165,10 @@ p {
     box-shadow 0.3s ease;
 }
 
-/* Hover effect */
 .common-card:hover {
-  transform: translateY(-6px);
-}
-
-.common-title {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  /* color: #8e2de2; */
-  color: wheat;
+  transform: translateY(-8px);
 }
 
 .common-card-desc {
-  /* color: black; */
   color: whitesmoke;
-}
-
-.icons-subtitle {
-  color: wheat;
-  font-size: 20px;
-  font-weight: 400;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./specialization.css";
 import DividerWithTitle from "../../../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 
-const Specialization = () => {
+const Specialization = ({ specializationTitle}) => {
   const specializations = [
     {
       title: "Direction and \n Screenplay Writing",
@@ -28,15 +28,15 @@ const Specialization = () => {
 
   return (
     <div className="specialization-section">
-      <DividerWithTitle title="Specializations" />
-      {/* <h3 className="innerpage-title">Specializations</h3> */}
+      {/* <DividerWithTitle title="Specializations" /> */}
+     <h3 className="innerpage-title">{specializationTitle}</h3>
 
       <div className="specialization-grid">
         {specializations.map((item, index) => (
           <div className="specialization-card" key={index}>
             <img src={item.logo} alt={item.title} />
             {item.title && (
-              <h4 className="spl-subtitle">
+              <h4 className="common-title">
                 {item.title.split("\n").map((line, i) => (
                   <span key={i}>
                     {line}

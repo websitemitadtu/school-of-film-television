@@ -22,20 +22,28 @@ const Navbar = ({ open, onClose }) => {
         {/* Menu */}
         <ul className="nav-menu">
           <li>
-            <NavLink to="/" onClick={onClose}>Home</NavLink>
+            <NavLink to="/" onClick={onClose}>
+              Home
+            </NavLink>
           </li>
 
           <li>
-            <NavLink to="/about" onClick={onClose}>About MIT-ADT</NavLink>
+            <NavLink to="/about" onClick={onClose}>
+              About MIT-ADT
+            </NavLink>
           </li>
 
           <li>
-            <NavLink to="/academics" onClick={onClose}>Academics</NavLink>
+            <NavLink to="/academics" onClick={onClose}>
+              Academics
+            </NavLink>
           </li>
 
           <li>
-            <span>Courses</span> 
-            <MdArrowDropDown className="dropdown-icon"/>
+            <li>
+              Courses <MdArrowDropDown className="dropdown-icon" />
+            </li>
+
             <ul className="submenu">
               <li>
                 <NavLink to="/courses/bsc-filmmaking" onClick={onClose}>
@@ -56,7 +64,9 @@ const Navbar = ({ open, onClose }) => {
           </li>
 
           <li>
-            <NavLink to="/admission" onClick={onClose}>Admissions</NavLink>
+            <NavLink to="/admission" onClick={onClose}>
+              Admissions
+            </NavLink>
           </li>
 
           <li>
@@ -72,40 +82,49 @@ const Navbar = ({ open, onClose }) => {
           </li>
 
           <li>
-            <NavLink to="/contact" onClick={onClose}>Contact Us</NavLink>
+            <NavLink to="/contact" onClick={onClose}>
+              Contact Us
+            </NavLink>
           </li>
         </ul>
 
-        <hr style={{maxWidth:"350px"}}/>
+        <hr style={{ maxWidth: "350px" }} />
 
-<div className="bnr-bottom">
-        {/* Footer */}
-        <p className="black-text">Follow us on</p>
+        <div className="bnr-bottom">
+          {/* Footer */}
+          <p className="sm-text">Follow us on</p>
 
-        <div className="footer-social-icons" id="nav-social">
-          {socialIconsData.map(({ url, network, bgColor }, index) => (
-            <SocialIcon
-              key={index}
-              className="foot-social-icons"
-              url={url}
-              network={network}
-              bgColor={bgColor}
-            />
-          ))}
-        </div>
+          <div className="footer-social-icons" id="nav-social">
+            {socialIconsData.map(({ url, network, bgColor }, index) => (
+              <SocialIcon
+                key={index}
+                className="ft-social-icons"
+                url={url}
+                network={network}
+                bgColor={bgColor}
+              />
+            ))}
+          </div>
 
-        <h5>Welcome to MIT-ADT University</h5>
-        <address className="bnr-address">
-          <p className="black-text">Rajbaug Campus, Loni Kalbhor, Pune - 412201</p>
-          <p className="black-text">Maharashtra, India</p>
-          <span>09595124234</span>
-          <br />
-          <span>info@mituniversity.edu.in</span>
-        </address>
+          <p className="sm-text">Welcome to MIT-ADT University</p>
+          <address className="bnr-address">
+            <p className="ad-text">
+              Rajbaug Campus, Loni Kalbhor, Pune - 412201
+              <br />
+              Maharashtra, India
+            </p>
+
+            <div>
+              <p className="nav-contact">
+                09595124234
+                <br />
+                info@mituniversity.edu.in
+              </p>
+            </div>
+          </address>
         </div>
       </nav>
     </div>
-    
   );
 };
 

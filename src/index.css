@@ -1,7 +1,12 @@
 body {
   margin: 0;
-    font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins-Medium", Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

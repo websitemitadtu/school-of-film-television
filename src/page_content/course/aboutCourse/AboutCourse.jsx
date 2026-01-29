@@ -19,7 +19,7 @@ const AboutCourse = ({
       <div className="aboutcourses-body">{children}</div>
 
       {/* Specialization Section */}
-      {specializations.length > 0 && (
+      {/* {specializations.length > 0 && (
         <div className="specialization-section">
           <h3 className="innerpage-title">{specializationTitle}</h3>
 
@@ -32,7 +32,7 @@ const AboutCourse = ({
             ))}
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

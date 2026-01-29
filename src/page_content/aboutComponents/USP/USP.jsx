@@ -14,7 +14,7 @@ const USP = () => {
         </div>
 
         <div className="common-card">
-          <h3 className="common-title">Global Learning Environment</h3>
+          <p className="innerpage-hg">Global Learning Environment</p>
           <p>
             Experience a diverse and inclusive campus with international
             exposure, modern infrastructure, and world-class facilities.

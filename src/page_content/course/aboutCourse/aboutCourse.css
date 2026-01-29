@@ -8,11 +8,10 @@
 }
 
 /* Specialization Section */
-.specialization-section {
+/* .specialization-section {
   margin-top: clamp(2rem, 4vw, 4rem);
 }
 
-/* Logos Grid */
 .specialization-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -35,4 +34,4 @@
   border-radius: 50%;      
   background: goldenrod;     
   padding: 10px;           
-}
+} */

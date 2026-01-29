@@ -45,6 +45,5 @@
   margin-top: clamp(6px, 1.2vw, 14px);
   color: #e0e6f5;
   letter-spacing: 1px;
-  text-transform: capitalize;
   animation: fadeIn 1s ease-in-out;
 }

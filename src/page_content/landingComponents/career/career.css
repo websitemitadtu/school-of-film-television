@@ -19,7 +19,6 @@
 
 .track-images {
   width: 300px !important; 
-  height: 300px; 
   object-fit: cover;
   border-radius: 15px; 
   flex-shrink: 0;

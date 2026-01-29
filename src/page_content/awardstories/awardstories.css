@@ -51,19 +51,17 @@
 
 .film-name {
   margin: 0;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .award-name {
   margin: 0;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
   color: #696984;
 }
 
 .student-name {
   margin: 0;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
 }

@@ -51,10 +51,12 @@ const Leadership = () => {
           />
 
           <div className="leader-info">
-            <h4 className="leader-name">Hon’ble Prof. Dr. Mangesh T. Karad</h4>
-            <span>(Executive President)</span>
+            <h4 className="ld-name">Hon’ble Prof. Dr. Mangesh T. Karad</h4>
             <p>
-              with Shri Javed Akhtar Sahab{" "}
+              <span>(Executive President)</span>
+            </p>
+            <p>
+              with Shri Javed Akhtar Sahab
               <span>, poet, lyricist and screenwriter </span>
             </p>
           </div>

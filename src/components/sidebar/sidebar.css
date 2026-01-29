@@ -16,18 +16,21 @@
 .sidebar li a,
 .sidebar li .sidebar-link {
   text-decoration: none;
-  color: #C4C4C4;
+  color: #c4c4c4;
   display: block;
   padding: clamp(6px, 0.8vw, 10px) 0 clamp(6px, 0.8vw, 10px)
     clamp(20px, 3vw, 40px);
   line-height: clamp(20px, 3vw, 30px);
-  transition: background 0.25s ease, color 0.25s ease, transform 0.2s ease;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.2s ease;
 }
 
 /* Active + hover */
 .sidebar li.active a,
 .sidebar li a:hover {
- color: goldenrod;
+  color: goldenrod;
 }
 
 /* Hover + active state for scroll items */

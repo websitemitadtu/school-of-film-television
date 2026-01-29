@@ -3,6 +3,7 @@ import InnerBanner from "../components/inner_banner/InnerBanner";
 import Sidebar from "../components/sidebar/Sidebar";
 import "./Pages.css";
 import AboutCourse from "../page_content/course/aboutCourse/AboutCourse";
+import Specialization from "../page_content/course/specialization/Specialization";
 import Curriculum from "../page_content/course/curriculum/Curriculum";
 import WhyThis from "../page_content/course/whyThis/WhyThis";
 import Scope from "../page_content/course/scope/Scope";
@@ -31,28 +32,28 @@ const MscFilmmaking = () => {
 
   const subtitle = "Sailing Towards Future";
 
-  const specializations = [
-    {
-      title: "Direction and Screenplay Writing",
-      logo: "/assets/images/icons/direction.webp",
-    },
-    {
-      title: "Cinematography",
-      logo: "/assets/images/icons/cinematography.webp",
-    },
-    {
-      title: "Film Editing",
-      logo: "/assets/images/icons/megaphone.webp",
-    },
-    {
-      title: "Sound Recording & Designing",
-      logo: "/assets/images/icons/film-editing.webp",
-    },
-    {
-      title: "VFX &amp; Motion Graphics",
-      logo: "/assets/images/icons/VFX.webp",
-    },
-  ];
+  // const specializations = [
+  //   {
+  //     title: "Direction and Screenplay Writing",
+  //     logo: "/assets/images/icons/direction.webp",
+  //   },
+  //   {
+  //     title: "Cinematography",
+  //     logo: "/assets/images/icons/cinematography.webp",
+  //   },
+  //   {
+  //     title: "Film Editing",
+  //     logo: "/assets/images/icons/megaphone.webp",
+  //   },
+  //   {
+  //     title: "Sound Recording & Designing",
+  //     logo: "/assets/images/icons/film-editing.webp",
+  //   },
+  //   {
+  //     title: "VFX &amp; Motion Graphics",
+  //     logo: "/assets/images/icons/VFX.webp",
+  //   },
+  // ];
 
   const whyThisData = [
     {
@@ -97,8 +98,8 @@ const MscFilmmaking = () => {
                   <p>Duration:2 Years </p>
                 </>
               }
-              specializationTitle="Specializations Offered"
-              specializations={specializations}
+              // specializationTitle="Specializations Offered"
+              // specializations={specializations}
             >
               <div>
                 <p>
@@ -137,6 +138,8 @@ const MscFilmmaking = () => {
               </div>
             </AboutCourse>
           </section>
+
+       <Specialization specializationTitle="Specializations Offered"/>
 
           <section ref={curriculumRef} id="curriculum">
             <Curriculum

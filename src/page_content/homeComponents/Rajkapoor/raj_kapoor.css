@@ -33,18 +33,7 @@
   position: relative;
 }
 
-/* Inner image overlay at top */
-/* .inner-image {
-  position: absolute;
-  bottom: -20px;
-  left: 95%;
-  transform: translateX(-80%);
-  width: 420px;
-  height: auto;
-  border-radius: 5%;
-  z-index: 2;
-  box-shadow: 10px 8px 15px rgba(255, 255, 255, 0.35);
-} */
+
 /* Inner image overlay at top */
 .inner-image {
   position: absolute;
@@ -55,7 +44,6 @@
   border-radius: 5%;
   z-index: 2;
   box-shadow: 10px 8px 15px rgba(255, 255, 255, 0.35);
-
   /* animation */
   animation: slideFromRight 3s ease-out forwards;
 }

@@ -23,7 +23,7 @@ const LandingTop = () => {
           />
           <h1 className="logo-title">
             School Of <br />
-            Film & Television
+            Film and Television
           </h1>
         </div>
 
@@ -44,7 +44,7 @@ const LandingTop = () => {
       <div className="landing-main">
         <div className="landing-left">
           {" "}
-          <h2 className="ld-main-title">Bring Imagination To Life</h2>
+          <h2 className="subtitle">Bring Imagination To Life</h2>
           {/* Left Card */}
           <div className="info-card">
             <h3 className="form-title">Apply Now / Enquiry Now</h3>
@@ -95,24 +95,24 @@ const LandingTop = () => {
 
         {/* Vertical Text Right Bottom */}
         <div className="landingtop-text">
-          <h3 className="ldtop-title">Our Alumni</h3>
-          <h3 className="ldtop-name">Mr.Ankit Bhat (Associate Dop)</h3>
-          <p className="ldtop-desc">On the set of feature film</p>
+          <h3 className="banner-title">Our Alumni</h3>
+          <p className="banner-title">Mr.Ankit Bhat (Associate Dop)</p>
+          <p className="banner-text">On the set of feature film</p>
         </div>
       </div>
 
       {/* Bottom Section */}
       <div className="landing-bottom">
         <div className="bottom-block">
-          <p className="bt-block-text">Last date of Application</p>
-          <h4 className="bt-block-title">20 February, 2026</h4>
+          <p className=" bt-block-text">Last date of Application</p>
+          <h4 className="subtitle bt-block-title">20 February, 2026</h4>
         </div>
 
         <div className="divider"></div>
 
         <div className="bottom-block">
           <p className="bt-block-text">Full time</p>
-          <h4 className="bt-block-title" style={{color:"red"}}>3 Programs</h4>
+          <h4 className="subtitle bt-block-title" style={{color:"red"}}>3 Programs</h4>
         </div>
       </div>
     </section>

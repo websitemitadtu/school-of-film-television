@@ -53,7 +53,7 @@ const Faculty = () => {
         >
           {facultyData.map((faculty) => (
             <div className="common-card " key={faculty.id}>
-              <h3 className="common-title ">{faculty.name}</h3>
+              <h5 className="common-title ">{faculty.name}</h5>
               <p>{faculty.designation}</p>
             </div>
           ))}

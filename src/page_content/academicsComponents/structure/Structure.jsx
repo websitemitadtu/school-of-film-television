@@ -7,7 +7,7 @@ const Structure = () => {
       <h2 className="innerpage-title">Academic Structure</h2>
         <div className="Structure-grid ">
           {/* card 1 */}
-          <div className="Structure-card">
+          <div className="common-card st-card">
             <h4 className="innerpage-subtitle">M.Sc. in Filmmaking</h4>
 
             <p>Program Duration – 2 Year.</p>
@@ -45,7 +45,7 @@ const Structure = () => {
           </div>
 
           {/* card 2*/}
-          <div className="Structure-card">
+          <div className="common-card st-card">
             <h4 className="innerpage-subtitle">B.Sc. in Filmmaking</h4>
 
             <p>Program Duration – 3 Year.</p>
@@ -84,7 +84,7 @@ const Structure = () => {
           </div>
 
           {/* card 3 */}
-          <div className="Structure-card">
+          <div className="common-card st-card">
             <h4 className="innerpage-subtitle">B.A. in Screen Acting</h4>
 
             <p>Program Duration – 3 Year.</p>

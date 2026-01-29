@@ -10,46 +10,30 @@
 }
 
 .feature-card {
-  padding: 30px 20px;
+  padding: 30px 10px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
-
 
 .feature-icon {
   background-color: white;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   padding: 10px;
   object-fit: cover;
   margin-bottom: 16px;
 }
 
-
-.feature-title {
-  font-size: 18px;
-  font-weight: 500;
-  color: wheat;
-  margin: 0;
-}
-
 /* unique features */
 .unique-features {
   padding: 60px 20px;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 40px;
-  color: #1a4ed8;
 }
 
 .uq-features-container {
@@ -61,21 +45,11 @@
 }
 
 .uq-feature-card {
-  padding:  0 20px;
-  border-radius: 12px;
   width: 60%;
-  /* background: whitesmoke; */
- box-shadow: 0 4px 10px rgba(255, 255, 255, 0.35);
-  background-color: rgba(47, 49, 54, 0.9);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-   /* Animation */
+  /* Animation */
   opacity: 0;
   transform: translateY(40px);
-  animation: slideIn 1s forwards;
-}
-
-.uq-feature-card:hover {
-  transform: translateY(-8px);
+  animation: slideIn 1.5s forwards;
 }
 
 .uq-feature-card.left {

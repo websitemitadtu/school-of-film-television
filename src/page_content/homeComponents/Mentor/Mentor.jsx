@@ -36,7 +36,7 @@ const Mentor = () => {
               className="mentor-icon"
             />
             <div>
-              <h3 id="mentor-name" className="subtitle">Dr. Jabbar Patel</h3>
+              <h3 className="subtitle" style={{textAlign:"left"}}>Dr. Jabbar Patel</h3>
               <p className="mentor-message">
                 “Cinema is not just about visuals, it’s about emotions,
                 discipline, and honesty. Always tell stories that matter.”

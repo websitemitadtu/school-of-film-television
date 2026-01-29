@@ -9,7 +9,6 @@
   align-items: center;
   gap: 50px;
   padding: 35px 0;
-  /* background-color: #20b2aa; */
 }
 
 .alumni-slider {
@@ -43,7 +42,7 @@
 .alumni-name {
   font-size: 20px;
   margin: 0;
-  color: whitesmoke;
+  color: wheat;
 }
 
 .nav-btn {

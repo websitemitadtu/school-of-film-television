@@ -31,9 +31,9 @@ const Vision = () => {
       <section className="vision-section" id="vision">
         <div className="vision-cards">
           {visionData.map((item, index) => (
-            <div className="vision-card" key={index}>
+            <div className="common-card" style={{maxWidth:"400px"}} key={index}>
               <div className="vision-icon">{item.icon}</div>
-              <h5 className="vision-title">{item.title}</h5>
+              <h5 className="common-title">{item.title}</h5>
               <p>{item.description}</p>
             </div>
           ))}

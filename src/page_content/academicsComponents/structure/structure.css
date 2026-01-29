@@ -1,29 +1,16 @@
-
 /* Grid layout */
 .Structure-grid {
   display: flex;
   flex-direction: column;
-  gap: clamp(1.2rem, 3vw, 2.5rem);
+  gap: 50px;
   margin: 60px 0;
 }
 
 /* Card */
-.Structure-card {
+.st-card {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.35);
-  background-color: rgba(47, 49, 54, 0.9);
-  /* background: rgba(255, 255, 255, 0.06); */
-  /* backdrop-filter: blur(6px); */
-  border-radius: 16px;
-  padding: clamp(1.4rem, 3vw, 2.2rem);
-  /* border: 1px solid white; */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
 }
 
-.Structure-card:hover {
-  transform: scale(1.02);
-  /* transform: translateY(-6px);
-  box-shadow: 0 10px 15px rgba(255, 253, 253, 0.8); */
-}

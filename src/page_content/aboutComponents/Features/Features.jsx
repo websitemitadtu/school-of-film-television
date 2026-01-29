@@ -71,7 +71,7 @@ const Features = () => {
         {featuresDataOne.map((item, index) => (
           <div className="feature-card" key={index}>
             <img src={item.src} alt={item.title} className="feature-icon" />
-            <h4 className="feature-title">{item.title}</h4>
+            <p className="innerpage-hg">{item.title}</p>
           </div>
         ))}
       </div>
@@ -80,20 +80,14 @@ const Features = () => {
         <h2 className="innerpage-title">Distinctive Features</h2>
         <div className="uq-features-container">
           {featuresDataTwo.map((feature, index) => (
-            // <div
-            //   key={index}
-            //   className={`uq-feature-card ${
-            //     index % 2 === 0 ? "left" : "right"
-            //   }`}
-            // >
             <div
               key={index}
-              className={`uq-feature-card ${
+              className={`common-card uq-feature-card ${
                 index % 2 === 0 ? "left" : "right"
               }`}
               style={{ animationDelay: `${index * 0.3}s` }}
             >
-              <h3 className="common-title">{feature.title}</h3>
+              <p className="innerpage-hg">{feature.title}</p>
               <p className="common-card-desc">{feature.desc}</p>
             </div>
           ))}

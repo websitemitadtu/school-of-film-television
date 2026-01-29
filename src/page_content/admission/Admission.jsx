@@ -180,12 +180,12 @@ const Admission = () => {
                 {stages.map((stage, index) => (
                   <div
                     key={index}
-                    className={`stage-card ${
+                    className={`stage-cards ${
                       index % 2 === 0 ? "left" : "right"
                     }`}
                   >
-                    <div className="stage-content">
-                      <h5 className="stage-title">{stage.title}</h5>
+                    <div className="common-card stage-card">
+                      <p className="innerpage-hg">{stage.title}</p>
                       <p className="stage-text">{stage.content}</p>
                       {stage.list && (
                         <ul className="page-list">
@@ -216,10 +216,10 @@ const Admission = () => {
               {faqData.map((item, index) => (
                 <div key={index} className="faq-item">
                   <div
-                    className="faq-question"
+                    className="faq-que"
                     onClick={() => toggleAccordion(index)}
                   >
-                    <span>{item.question}</span>
+                  <p> <span>{item.question}</span></p> 
                     <span className="faq-icon">
                       {activeIndex === index ? (
                         <FiChevronUp />

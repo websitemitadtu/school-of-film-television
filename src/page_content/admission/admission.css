@@ -16,7 +16,6 @@
 
 .admission-table th,
 .admission-table td {
-  font-family: "Poppins-Medium", Helvetica;
   font-size: 18px;
   font-weight: 500;
   border: 1px solid #ccc;
@@ -27,7 +26,6 @@
 .admission-table th {
   background-color: rgba(47, 49, 54, 0.9);
   color: wheat;
-   font-weight: 600;
 }
 
 /* stages */
@@ -39,18 +37,18 @@
   margin: auto;
 }
 
-.stage-card {
+.stage-cards {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   position: relative;
 }
 
-.stage-card.right {
+.stage-cards.right {
   justify-content: flex-end;
 }
 
-.stage-card::before {
+.stage-cards::before {
   content: "";
   position: absolute;
   top: 20px;
@@ -62,47 +60,24 @@
   z-index: 0;
 }
 
-.stage-content {
-  /* background: whitesmoke; */
-  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
-  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.35);
-  background-color: rgba(47, 49, 54, 0.9);
-  border-radius: 15px;
-  padding: 15px 25px;
+.stage-card {
   width: 45%;
   position: relative;
   z-index: 1;
   height: auto;
+  text-align: left;
 }
 
-.stage-card.left .stage-content {
+.stage-cards.left .stage-card {
   margin-left: 0;
 }
 
-.stage-card.right .stage-content {
+.stage-cards.right .stage-card {
   margin-right: 0;
 }
 
-.stage-title {
-  font-size: 22px;
-  /* color: #8e2de2; */
-  color: wheat;
-  margin: 0;
-}
-
-.stage-content ul {
-  padding-left: 20px;
-  list-style-type: disc;
-  /* color: #333; */
-}
-
-.stage-content li {
-  margin-bottom: 8px;
-  /* color: #333; */
-}
-
 /* Add connector dot for timeline style */
-.stage-card::after {
+.stage-cards::after {
   content: "";
   position: absolute;
   top: 20px;
@@ -115,29 +90,21 @@
   z-index: 1;
 }
 
-/* faq */
 .faq-wrapper {
   max-width: 1000px;
   margin: 60px auto;
   padding: 0 20px;
 }
 
-/* FAQ Item */
 .faq-item {
   border-bottom: 0.5px solid silver;
-  padding: 15px 0;
 }
 
-/* Question */
-.faq-question {
-  font-family: "Poppins-Medium", Helvetica;
+.faq-que {
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-size: 18px;
-  font-weight: 400;
-  color: wheat;
 }
 
 /* Icon */

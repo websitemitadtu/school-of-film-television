@@ -93,28 +93,28 @@ const AdmissionDetails = () => {
         <div className="card-row">
           {sections[activeTab].cards.map((card, index) => (
             <div className="admission-card" key={index}>
-              <h4>{card.title}</h4>
+              <h4 className="innerpage-subtitle">{card.title}</h4>
 
               {/* Subtitle (only if exists) */}
               {card.subtitle && (
-                <h5 className="subtitle">
+                <p>
                   {card.subtitle.split("\n").map((line, i) => (
-                    <span key={i}>
+                    <p style={{margin:"0"}} key={i}>
                       {line}
                       <br />
-                    </span>
+                    </p>
                   ))}
-                </h5>
+                </p>
               )}
 
               {/* Description (only if exists) */}
               {card.description && (
-                <p className="description">{card.description}</p>
+                <p style={{textAlign:"left"}}>{card.description}</p>
               )}
 
               {/* List from des array */}
               {card.desclist && (
-                <ul className="desc-list">
+                <ul className="page-list" style={{textAlign:"left"}}>
                   {card.desclist.map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
