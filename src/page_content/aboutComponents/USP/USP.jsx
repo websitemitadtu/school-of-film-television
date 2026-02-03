@@ -1,11 +1,11 @@
 import React from "react";
-import "./usp.css";
 
 const USP = () => {
   return (
     <div>
       <h2 className="innerpage-title">Industry-Focused Education</h2>
-      <section className="usp-section">
+      <section className="vision-section">
+         <div className="vision-cards">
         <div className="common-card">
           <p className="innerpage-hg">
             Internationally Aligned Cinematic Pedagogy
@@ -29,7 +29,7 @@ const USP = () => {
             studio for camera workshops and one of Pune’s largest fully air
             conditioned shooting floors for large scale productions.
           </p>
-        </div>
+        </div></div>
       </section>
     </div>
   );
